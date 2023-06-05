@@ -1,0 +1,146 @@
+body{
+    background: #141519;
+    display: flex;
+    height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontpage
+{
+  background-color: #1e242e;
+  padding: 10px;
+   border-radius: 40px; 
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  padding: 10px;
+
+}
+
+.header {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    
+  }
+
+  .description {
+    color: #8e949e;
+    font-size: 14px;
+    margin-bottom: -10px;
+  }
+  .buttoncontainer{
+    display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+  .button{
+    background: #272e3f;
+  border-radius: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  }
+
+
+
+.button:hover {
+    background :#fb7b19;
+}
+  .rating:focus {
+    background: #fb7b19;
+  }
+
+  .submit {
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: #fd7913;
+    width: 100%;
+    padding: 16px;
+     border-radius: 30px;}
+
+     .submit:focus {
+        color: #fb7b19;
+        background: white;
+      }
+     .submit:hover {
+        color: #fb7b19;
+        background: white;
+
+     }
+
+
+      .selected  {
+        
+        margin-top: 10px;
+        border: none;
+        width: fit-content;
+        color: #fb7b19;
+        background: #242c33;
+        padding: 8px 16px;
+        border-radius: 30px;
+        
+        text-align: center;
+      }
+
+      .selected svg{
+        
+        margin : 0 auto;
+      }
+
+
+      .container-star{
+        display: flex;
+        align-items: end;
+      }
+
+      .star {
+        width: 20px; /* Adjust the width to your needs */
+        height: 20px; /* Adjust the height to your needs */
+        
+      }
+        
+      .Thankyou{
+        display: flex;
+        align-items: center;
+      }
+
+      .selected .selected-rating{
+        color:#fd7913;
+        background:#272e3f;
+        border-radius: 30px;
+        padding-top: 5px;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+        padding-bottom: 5px;
+      }
+      .selected h3 {
+        color: aliceblue;
+      }
+
+      .selected .appreciate{
+        color: #8e949e;
+      }
+      
+
