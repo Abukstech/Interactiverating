@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Interactiverating/static/css/main.f2a8490f.css",
+    "main.js": "/Interactiverating/static/js/main.a44383ef.js",
+    "index.html": "/Interactiverating/index.html",
+    "main.f2a8490f.css.map": "/Interactiverating/static/css/main.f2a8490f.css.map",
+    "main.a44383ef.js.map": "/Interactiverating/static/js/main.a44383ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2a8490f.css",
+    "static/js/main.a44383ef.js"
+  ]
+}
